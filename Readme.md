@@ -1,4 +1,10 @@
-# CRUD API
-
-1. Task - [here](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md)
-2. Deadline - 17.01.2023
+### Simple REST api server
+##### How to run app
+1. Build production app:
+`npm run start:prod`
+2. Run in developer mode:
+`npm run start:dev`
+3. Run in multiple mode:
+`npm run start:multi` 
+or 
+`npm run start:multi:dev` for development
