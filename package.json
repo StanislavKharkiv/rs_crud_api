@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "npx nodemon",
     "start:prod": "npx tsc && node build/index.js",
+    "start:multi": "npx tsc && node build/index.js --multi",
+    "start:multi:dev": "npx nodemon --multi",
     "eslint:fix": "eslint --fix"
   },
   "repository": {
